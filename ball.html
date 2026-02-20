@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 500px;height: 500px;
+            display: grid;
+            place-items: center;
+        }
+        ul{
+            border-radius: 10px;display: flex;
+            border-bottom: 15px solid red;
+            
+        }
+        ul li{
+            height: 40px;width: 40px;
+            border-radius: 50%;
+            margin:auto 20px;
+            background-color:cadetblue ;
+            list-style: none    ;
+            animation: bouncing 0.7s linear infinite alternate-reverse;
+        }
+        ul li:nth-child(1){animation-delay: 0.2s;background-color: cadetblue;}
+        ul li:nth-child(2){animation-delay: 0.3s;background-color: yellowgreen;}
+        ul li:nth-child(3){animation-delay: 0.4s;background-color:turquoise;}
+        ul li:nth-child(4){animation-delay: 0.5s;background-color:violet;}
+        ul li:nth-child(5){animation-delay: 0.6s;background-color:blue;}
+    @keyframes bouncing{
+        50%{transform: translateY(-150px);}
+    }
+    </style>
+</head>
+<body>
+    
+    <ul><li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+</html>

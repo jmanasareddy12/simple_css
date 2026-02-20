@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 500px;height: 500px;
+            display: grid;
+        }
+        
+        marquee{
+            height: 40px;width: 40px;
+            border-radius: 20%;
+            margin:auto 20px;
+            background-image: linear-gradient(red,blue);
+            transform-origin: left;
+            animation: bouncing 0.7s linear infinite alternate-reverse;
+        }
+        @keyframes bouncing{
+            50%{transform:scaleX(20);}
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction=""></marquee>
+</body>
+</html>
