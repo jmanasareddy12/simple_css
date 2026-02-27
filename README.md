@@ -71,7 +71,7 @@ CSS3
 CSS Animations
 
 Flexbox & Positioning
-
+```
 📂 Project Structure
 css-programs/
 │
@@ -92,6 +92,7 @@ css-programs/
 │   └── style.css
 │
 └── README.md
+```
 🚀 How to Run
 
 Clone the repository:
